@@ -1,0 +1,62 @@
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+    
+}
+.whatsapp-link:hover{
+    background: #03702b;
+    transform: scale(1.2);
+}
+.rede{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+}
+.rede#instagram{
+    background-color: #3f729b;
+}
+.rede#facebook{
+    background-color: #2372a3;
+}
+.rede#menu{
+    background-color: #2372a3;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.xixi{
+    font-family: 'Fredoka One', cursive;
+    color: #FFF;
+}
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.menu__item:hover{
+    
+    transform: scale(1.2);
+}
+footer{
+    background-color: #a44a3f;
+}
+.rodape{
+    font-family: 'Fredoka One', cursive;
+    color: #FFF;
+}
